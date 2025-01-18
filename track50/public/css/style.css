@@ -1,0 +1,123 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: #8bc34a !important;
+}
+
+main {
+  width: 100vw;
+  display: grid;
+  place-content: center;
+}
+
+.globe {
+  border: 2px solid #8bc34a;
+  border-radius: 50%;
+  height: 140px;
+  left: 50%;
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+}
+
+.globe svg {
+  animation: rotation 5s linear 0s infinite;
+}
+
+.globe svg path {
+  stroke: #8bc34a;
+}
+
+@keyframes rotation {
+  from {
+    transform: translateX(0);
+  }
+
+  from {
+    transform: translateX(-50%);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #212529;
+  color: white;
+}
+
+.globewrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1vw;
+  padding-right: 10vw;
+  background-color: #212529;
+}
+
+.text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.globe {
+  margin-top: 20vh;
+}
+
+.center {
+  text-align: center;
+}
+
+.green,
+footer > span {
+  color: #8bc34a;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #8bc34a;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
